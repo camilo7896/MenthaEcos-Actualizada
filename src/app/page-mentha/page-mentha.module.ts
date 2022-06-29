@@ -6,6 +6,7 @@ import { NavComponent } from './nav/nav.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
 MainPageComponent,
 HomeComponent,
 NavComponent,
-FooterComponent
+FooterComponent,
+AboutComponent
   ],
   imports: [
     FormsModule,
@@ -25,4 +27,10 @@ FooterComponent
     MainPageComponent
   ]
 })
-export class PageMenthaModule { }
+export class PageMenthaModule {
+
+  // Imagenes
+
+ 
+
+ }
