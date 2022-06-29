@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { UbicacionComponent } from './ubicacion/ubicacion.component';
 
 
 
@@ -16,7 +17,8 @@ MainPageComponent,
 HomeComponent,
 NavComponent,
 FooterComponent,
-AboutComponent
+AboutComponent,
+UbicacionComponent
   ],
   imports: [
     FormsModule,
