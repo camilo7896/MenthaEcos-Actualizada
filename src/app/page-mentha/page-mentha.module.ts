@@ -6,6 +6,9 @@ import { NavComponent } from './nav/nav.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { TeomaComponent } from './teoma/teoma.component';
+import { MascotasComponent } from './mascotas/mascotas.component';
+import { MujerComponent } from './mujer/mujer.component';
 
 
 
@@ -14,7 +17,10 @@ import { FooterComponent } from './footer/footer.component';
 MainPageComponent,
 HomeComponent,
 NavComponent,
-FooterComponent
+FooterComponent,
+TeomaComponent,
+MascotasComponent,
+MujerComponent
   ],
   imports: [
     FormsModule,
