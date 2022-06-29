@@ -19,16 +19,16 @@
             Productos
           </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Para Mujer</a></li>
-                        <li><a class="dropdown-item" href="#">Para Mascotas</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['mujer']">Para Mujer</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['mascotas']">Para Mascotas</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Para la salud</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['teoma']">Para la salud</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Ubicacion</a>
+                    <a class="nav-link active" aria-current="page" [routerLink]="['home']">Ubicacion</a>
                 </li>
             </ul>
             <form class="d-flex" role="search" (ngSubmit)="servi.search()">
