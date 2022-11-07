@@ -13,6 +13,6 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public logo:string='../assets/mentha-3.png';
+  public logo:string='../assets/mentha-large.png';
 
 }
